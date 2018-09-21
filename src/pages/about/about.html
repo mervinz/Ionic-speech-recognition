@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Themes
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding [style.background-color] ="bgcolor">
+  <ion-card padding="16px">
+    <ion-card-header> How to change your theme</ion-card-header>
+    <ion-card-content>
+      your can change the app color background to color of your choice.
+      <p>1. click on the button below and say a color. </p>
+      <p>2. The color will change immediately</p>
+    </ion-card-content>
+    <ion-item-divider></ion-item-divider>
+  </ion-card>
+  <button ion-button full (click)="start()">Say a color to change theme</button>
+</ion-content>

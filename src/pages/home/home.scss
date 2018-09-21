@@ -1,0 +1,31 @@
+page-home {
+  ion-card-content{
+    background:#f4f4f4;
+  }
+  .scroll-content{
+    align-content: center;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  ion-card.card{
+    box-shadow: beige;
+  }
+  .a{
+    color: aqua;
+  }
+  .item{
+    margin-bottom: 10px;
+    background: beige;
+    border: medium none;
+
+    .text-input{
+      color: #f4f4f4;
+    }
+    input::-moz-placeholder{
+      color: #f4f4f4;
+    }
+  }
+
+}

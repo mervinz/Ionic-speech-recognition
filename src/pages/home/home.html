@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Log In</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding [style.background-color]="bgcolor">
+  <ion-card>
+    <ion-card-header>
+      Log in
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item no-lines="">
+        <ion-item>
+          <ion-input type="text" placeholder="UserName"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="password" placeholder="**************"></ion-input>
+        </ion-item>
+      </ion-item>
+      <button ion-button [block]="true" [round]="true" [outline]="true"> login</button>
+      <a>Forgot Password?</a>
+      <span><a>sign up</a></span>
+      <ion-item>
+        <button ion-button [block]="true"><ion-icon name="logo-facebook" margin-end="4px"></ion-icon>login with facebook</button>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
